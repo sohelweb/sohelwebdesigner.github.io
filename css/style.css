@@ -1,0 +1,440 @@
+*{margin:0px; padding:0px;}
+
+#header_wrapper{
+	background:linear-gradient(#84c520,#378D0F);
+}
+
+#main-header{
+	width:960px;
+	
+	
+	/*border-right:1px solid #1e5103;
+	border-left:1px solid #1e5103;*/
+	
+	
+	overflow:hidden;
+	margin:0px auto;
+}
+
+#main-header .icon img{
+	width:50px;
+	height:50px;
+	margin-top:107px;
+	float:left;
+}
+
+#main-header .head{
+	float:left;
+	margin-top:100px;
+}
+
+#main-header .head h2{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 10px;
+	
+}
+
+#main-header .head p{
+	color: #fff;
+    margin-left: 10px;
+    font-style: italic;
+	font-size:20px;
+}
+
+#main-header .head_img{
+	float:right;
+	margin-top:10px;
+	vertical-align:middle;
+}
+
+#nav_wrapper{
+	background:linear-gradient(#f7f7fa,#d0d0d5,#d0d0d5,#fcecdf);
+	border-top:5px solid #fff;
+	border-bottom:5px solid #BC5E12;
+	height:50px;
+}
+
+#nav_wrapper .menu{
+	width:960px;
+	margin:0 auto;
+}
+
+.menu ul{}
+.menu ul li{
+	float:left;
+	list-style-type:none;
+}
+.menu ul li a{
+	background:linear-gradient(#f7f7fa,#d0d0d5,#d0d0d5,#fcecdf);
+	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
+	color:#575757;
+	padding:15px;
+	display:block;
+}
+
+#content_wrapper{
+	background:#F59538;
+	overflow:hidden;
+}
+
+.main-content{
+	width:960px;
+	margin:0 auto;
+}
+
+#sidebar_wrapper{
+	float:left;
+	margin-top:15px;
+	width:300px;
+	z-index:5;
+}
+
+#sidebar_wrapper .top{
+	color: #fff;
+    font-family: arial;
+    font-style: italic;
+    padding: 10px;
+}
+
+#sidebar_wrapper .top-middle{
+	background:linear-gradient(#FFB02F,#FDC231,#FFB02F);
+	border-radius:30px 0px 0px 0px;
+}
+
+#sidebar_wrapper .middle{
+	border-top:2px dashed  #F9F689;
+	margin-top:5px;
+	padding: 10px;
+}
+
+#sidebar_wrapper .middle .order img{
+	height: 130px;
+}
+
+#sidebar_wrapper .middle p{
+	color:#5C3202;
+}
+
+#sidebar_wrapper .middle .buton-1 img{
+	height: 20px;
+    width: 15px;
+	cursor:pointer;
+	float:left;
+}
+
+
+#sidebar_wrapper .middle input[type=text]{
+	width:130px;
+	margin-bottom:5px;
+	margin-top:5px;
+	border-left:2px solid #462D07;
+	border-top:2px solid #462D07;
+	font-size:15px;
+	display:inline;
+	float:left;
+}
+
+#sidebar_wrapper .middle .buton-2 img{
+	margin-right:150px;
+}
+
+#sidebar_wrapper .middle input[type=password]{
+	width:130px;
+	border-left:2px solid #462D07;
+	border-top:2px solid #462D07;
+	
+	margin-top:-20px;
+	margin-left:15px;
+	font-size:15px;
+	display:inline;
+	float:left;
+}
+
+#sidebar_wrapper .middle input[type=submit]{
+	padding:12px;
+	border-radius:10px;
+	width:100px;
+	margin-top:-13px;
+	margin-left:10px;
+	
+	background:linear-gradient(#84c520,#378D0F);
+	color:#fff;
+	font-size:20px;
+	font-family:arial;
+	cursor:pointer;
+}
+
+#sidebar_wrapper .middle ul li{
+	list-style-type:none;
+}
+#sidebar_wrapper .middle ul li a{
+	color:#5C3202;
+}
+
+
+#sidebar_wrapper .down{
+	border-top: 2px dashed #BA8D15;
+    height: 180px;
+    background: -webkit-linear-gradient(155deg, transparent 20px, #FFC957 20px, #FFC957);
+	z-index:6;
+}
+
+
+
+#sidebar_wrapper .down h2{
+	background:#FFDF57;
+	color:#C2851D;
+	padding:10px;
+}
+
+#sidebar_wrapper .down img{
+	height:50px;
+	width:50px;
+	float:left;
+}
+
+#sidebar_wrapper .down p{
+	margin-left:60px;
+	margin-bottom:10px;
+	color:#5C3202;
+}
+
+#sidebar_wrapper .down label p a{
+	font-size:20px;
+	color:#26880C;
+}
+
+
+#healthy-food{
+	width:250px;
+	height:527px;
+	background:#fff;
+	float:left;
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:10px;
+	
+	border-radius:0px 30px 0px 0px;
+}
+
+#healthy-food h2{
+	background:#D9802D;
+	padding:10px;
+	border-bottom: 2px solid #945223;
+	border-radius:0px 30px 0px 0px;
+	color:#fff;
+	font-family:
+}
+
+#healthy-food .content{
+	border:1px solid #B77A3A;
+	height:460px;
+	padding:8px;
+}
+
+#healthy-food .content h3{
+	margin-top:15px;
+	margin-left:15px;
+	color:#3C9110;
+}
+
+#healthy-food .content p{
+	margin-left:15px;
+}
+
+#healthy-food img{
+	height:150px;
+	width:200px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:3px solid #ABAAB6;
+	
+	display:block;
+}
+
+#healthy-food .content a{
+	color:#98CB24;
+	font-family:arial;
+	font-size:18px;
+	font-weight: 700;
+}
+
+
+
+
+
+
+#special-menu{
+	width:390px;
+	height:490px;
+	margin-top:15px;
+	float:right;
+}
+
+#special-menu .head img{
+	width:15px;
+	height:20px;
+	transform:rotate(90deg);
+	margin-top:5px;
+	float:right;
+	cursor:pointer;
+}
+
+#special-menu .head{
+	color:#fff;
+	background:linear-gradient(#EE471C,#E71418);
+	padding:15px;
+	border-radius:0px 30px 0px 0px;
+	text-align:right;
+}
+
+#special-menu .head h2{
+	margin-right:30px;
+}
+
+#special-menu .burger{
+	margin-top:35px;
+}
+
+#special-menu .burger img{
+	width:140px;
+	height:140px;
+	border:10px solid #fff;
+	border-radius:90px;
+	margin-top:-10px;
+	float:left;
+}
+
+#special-menu .burger h2{
+	background:linear-gradient(#FFAE30,#FFBC5C);
+	color:#fff;
+	margin-left:50px;
+	text-align:center;
+	padding:18px;
+}
+
+.burger p{
+	padding:4px;
+	margin-left:40px;
+	font-family:arial;
+	background: -webkit-linear-gradient(20deg, transparent 15px, #fff 2px, #fff);
+}
+
+#special-menu .burger p label{
+	color:#55ec0f;
+	font-size:40px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+
+#special-menu .steak{
+	margin-top:35px;
+}
+
+#special-menu .steak img{
+	width:140px;
+	height:140px;
+	border:10px solid #fff;
+	border-radius:90px;
+	margin-top:-10px;
+	float:left;
+}
+
+#special-menu .steak h2{
+	background:linear-gradient(#FE7331,#FD9153);
+	color:#fff;
+	margin-left:50px;
+	text-align:center;
+	padding:18px;
+}
+
+#special-menu .steak p{
+	padding:4px;
+	margin-left:40px;
+	font-family:arial;
+	
+	background: -webkit-linear-gradient(20deg, transparent 15px, #fff 2px, #fff);
+}
+
+#special-menu .steak p label{
+	color:#55ec0f;
+	font-size:40px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+}
+
+#footer_wrapper{
+	background:#BE6A21;
+}
+
+#footer{
+	width:960px;
+	height:100px;
+	background:#BE6A21;
+	margin:0 auto;
+	margin-top:-80px;
+}
+
+#footer nav{
+	background:#F59538;
+}
+
+#footer ul{
+	background:#BE6A21;
+	width:659px;
+	height:35px;
+	margin-left:300px;
+	
+	border-radius:0px 30px 0px 0px;	
+}
+#footer ul li{
+	float:left;
+	list-style-type:none;
+}
+
+
+#footer ul li a{
+	font-family: arial;
+    font-size: 14px;
+    font-style: italic;
+	color:#FFDDAB;
+    text-decoration: underline;
+    background: #BE6A21;
+    padding: 10px;
+	display:block;
+}
+
+
+#footer p{
+	text-align:center;
+	margin-left:70px;
+	color:#FFD5A6;
+}
+
+
+#footer p label{
+	font-weight:bold;
+}
+
+#footer p a{
+	color:#FFC288;
+}
+
+
+
+
+
+
+
+
+
+

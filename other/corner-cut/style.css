@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+body {
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+  background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/blackorchid.png");
+}
+#total_wrapper{
+	margin:0;
+	border:1px solid red;
+	width: 557px;
+height: 90px;
+}
+div {
+  margin:0;
+  width: 200px;
+}
+
+aside.sticker {
+  margin-top:0px;
+  margin-left:-28px;
+  font-size: 20px;
+ 
+
+  width: 550px;
+  height: 44px;
+
+  text-align: center;
+  padding-top: -2px;
+	z-index:5;
+
+}
+
+
+aside.sticker.cyan{
+  color: white;
+  background: -webkit-linear-gradient(45deg, transparent 150px, green 20px, green);
+  padding-left:20px;
+}
+
+p{
+	margin-left: 155px;
+	padding-top: 9px;
+	font-family:verdana;
+}
+
+
+#wrapper{
+	margin:0;
+	margin-top: -64px;
+	margin-left:0px;
+}
+aside.sticker1 {
+  margin: 20px;
+  font-size: 20px;
+ 
+
+  width: 329px;
+  height: 35px;
+
+  text-align: center;
+  padding-top: 10px;
+  z-index:50;
+
+}
+
+
+
+aside.sticker1.cyan1 {
+  color: white;
+ background: -webkit-linear-gradient(45deg, transparent 150px, orange 20px, orange);
+ transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
